@@ -1,0 +1,139 @@
+body {
+  background-color: #f2f2f6;
+  width: 960px;
+  min-height: 80vh;
+  margin: 10px auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.styled-block {
+  border: 1px solid #b7bbc7;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  min-width: 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  vertical-align: middle;
+  margin: 3px 10px;
+  font-size: 14px;
+}
+
+a.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.icon-btn {
+  padding: 0;
+}
+
+.material-icons {
+  font-size: 20px;
+}
+
+.button:disabled {
+  background-color: #b7bbc7;
+  color: #ffffff;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.button-primary {
+  background-color: #4469ae;
+  color: #ffffff;
+}
+
+.button-delete {
+  background-color: #d63649;
+  color: #e8e9ea;
+  border: 1px solid #d63649;
+}
+
+.centered {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.ServiceAdd__form {
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.ServiceAdd__form_input {
+  margin-right: 30px;
+  padding: 5px;
+  width: 300px;
+}
+
+.ServiceAdd__form_input:focus {
+  border: 1px solid #4469ae;
+  outline: none;
+}
+
+.ServiceList__ul {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ServiceItem__li {
+  padding: 10px 30px;
+  margin: 5px;
+  background-color: #e8e9ea;
+  color: #4469ae;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ServiceItem__li_element {
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+.ServiceItem__li_element_button-block {
+  flex-basis: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.Error_container {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.EditItem__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.EditItem__form_input {
+  margin: 5px 30px;
+  padding: 5px;
+  width: 300px;
+}
+
+.EditItem__form_input:focus {
+  border: 1px solid #4469ae;
+  outline: none;
+}
+
